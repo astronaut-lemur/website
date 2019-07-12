@@ -50,7 +50,7 @@ button, .dropbtn {
   cursor: pointer;
 }
 
-.dropdown:hover .dropbtn, .dropdown-content a:hover {
+.dropbtn, .dropdown-content a:hover {
   background-color: #010b2b;
   color: white;
 }
