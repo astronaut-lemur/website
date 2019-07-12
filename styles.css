@@ -1,7 +1,7 @@
 body {
   background-color: #010b2b;
   font-family: "Lucida Console", "Monaco", "monospace";
-  color: red;
+  color: white;
   position: relative;
 }
 
@@ -32,7 +32,7 @@ hr {
   text-align: center;
 }
 
-button {
+button, .dropbtn {
   font-family: "Lucida Console", "Monaco", "monospace";
   position: relative;
   background-color: transparent;
@@ -41,8 +41,8 @@ button {
   color: white;
   padding: 0.4em 0.5em;
   text-align: center;
-  text-decoration: underline overline;
-  text-decoration-style: double;
+  /*text-decoration: underline overline;
+  text-decoration-style: double; */
   display: inline-block;
   font-size: 1.5em;
   margin: 0em 0em;
@@ -55,24 +55,6 @@ button:hover {
   background-colour: #031654;
 }
 
-.dropbtn {
-  font-family: "Lucida Console", "Monaco", "monospace";
-  position: relative;
-  background-color: transparent;
-  border: none;
-  border-radius: 0.1em;
-  color: white;
-  padding: 0.4em 0.5em;
-  text-align: center;
-  text-decoration: underline overline;
-  text-decoration-style: double;
-  display: inline-block;
-  font-size: 1.5em;
-  margin: 0em 0em;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
 
 .dropbtn:hover {
   background-colour: #031654;
