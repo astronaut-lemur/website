@@ -18,8 +18,13 @@ h1 {
   font-style: bold;
   font-size: 70px;
   margin: 20px;
+   -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
+h1:hover {
+  border: transparent;
+}
 
 hr {
   color: white;
