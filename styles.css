@@ -92,3 +92,15 @@ button {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.posts a {
+  color: transparent;
+}
+
+button:active .posts a {
+  color: white;
+}
+
+button:active p1 {
+  color: transparent;
+}
