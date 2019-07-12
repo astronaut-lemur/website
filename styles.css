@@ -1,5 +1,5 @@
 body {
-  background-color: #031654;
+  background-color: #010b2b;
   font-family: "Lucida Console", "Monaco", monospace;
   color: white;
   position: relative;
@@ -52,7 +52,7 @@ button, .dropbtn {
 }
 
 button:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
-  background-color: #a7b6c4;
+  background-color: #010b2b;
   color: white;
 }
 
