@@ -49,7 +49,7 @@ button, .dropbtn {
   cursor: pointer;
 }
 
-button:hover {
+button:hover, .dropdown:hover .dropbtn {
   background-color: #a7b6c4;
   color: white;
 }
@@ -84,8 +84,5 @@ button:hover {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
