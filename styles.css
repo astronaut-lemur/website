@@ -1,7 +1,7 @@
 body {
   background-color: #010b2b;
   font-family: "Lucida Console", "Monaco", "monospace";
-  color: white;
+  color: blue;
   position: relative;
 }
 
@@ -32,7 +32,7 @@ hr {
   text-align: center;
 }
 
-button, .dropbtn {
+button {
   position: relative;
   background-color: transparent;
   border: none;
@@ -50,7 +50,29 @@ button, .dropbtn {
   cursor: pointer;
 }
 
-button:hover, .dropdown:hover .dropbtn {
+.dropbtn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.1em;
+  color: white;
+  padding: 0.4em 0.5em;
+  text-align: center;
+  text-decoration: underline overline;
+  text-decoration-style: double;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0em 0em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-colour: #031654
+}
+
+.dropdown:hover .dropbtn {
   background-colour: #031654
 }
 
