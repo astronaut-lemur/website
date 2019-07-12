@@ -1,7 +1,7 @@
 body {
   background-color: #010b2b;
   font-family: "Lucida Console", "Monaco", "monospace";
-  color: blue;
+  color: white;
   position: relative;
 }
 
@@ -33,6 +33,7 @@ hr {
 }
 
 button {
+  font-family: "Lucida Console", "Monaco", "monospace";
   position: relative;
   background-color: transparent;
   border: none;
@@ -51,6 +52,7 @@ button {
 }
 
 .dropbtn {
+  font-family: "Lucida Console", "Monaco", "monospace";
   position: relative;
   background-color: transparent;
   border: none;
@@ -69,11 +71,11 @@ button {
 }
 
 button:hover {
-  background-colour: #031654
+  background-colour: #031654;
 }
 
 .dropdown:hover .dropbtn {
-  background-colour: #031654
+  background-colour: #031654;
 }
 
 .dropbtn, .dropdown-content a:hover {
