@@ -1,7 +1,7 @@
 body {
   background-color: #010b2b;
   font-family: "Lucida Console", "Monaco", "monospace";
-  color: white;
+  color: powderblue;
   position: relative;
 }
 
@@ -45,13 +45,14 @@ button, .dropbtn {
   text-decoration-style: double; */
   display: inline-block;
   font-size: 1.5em;
+  font-style: bold;
   margin: 0em 0em;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background-colour: #031654;
 }
 
