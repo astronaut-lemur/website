@@ -93,6 +93,6 @@ button {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-gif {
+#gif {
   transform: rotate(90 degrees);
 }
