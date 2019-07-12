@@ -32,7 +32,7 @@ hr {
   text-align: center;
 }
 
-button, .dropbtn {
+button, dropbtn {
   position: relative;
   background-color: transparent;
   border: none;
@@ -55,7 +55,7 @@ button, .dropbtn {
   color: white;
 }
 
-button:hover, .dropdown:hover {
+button:hover, dropbtn:hover {
   background-colour: #031654
 }
 /* The container <div> - needed to position the dropdown content */
