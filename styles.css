@@ -31,7 +31,7 @@ hr {
   text-align: center;
 }
 
-button {
+button, .dropbtn {
   position: relative;
   background-color: transparent;
   border: none;
@@ -83,6 +83,5 @@ button:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropbtn {background-color: powderblue;}
 
 
