@@ -67,7 +67,7 @@ button:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
   display: none;
   position: absolute;
   background-color: powderblue;
-  min-width: 160px;
+  min-width: button.width;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
