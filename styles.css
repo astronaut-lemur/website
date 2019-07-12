@@ -1,0 +1,56 @@
+body {
+  background-color: powderblue;
+  font-family: "Lucida Console", "Monaco", monospace;
+  color: white;
+  position: relative;
+}
+
+canvas {
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  border: 5px solid white;
+  padding: 0.5em;
+  font-style: bold;
+}
+
+
+hr {
+  color: white;
+  margin-bottom: 0.8em;
+  border: dashed;
+}
+
+#blog-buttons {
+  text-align: center;
+}
+
+button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.1em;
+  color: white;
+  padding: 0.4em 0.5em;
+  text-align: center;
+  font-style: bold;
+  text-decoration: underline overline;
+  text-decoration-style: double;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0.5em 0.25em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a7b6c4;
+  color: white;
+}
+
+
