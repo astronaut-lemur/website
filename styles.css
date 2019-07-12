@@ -25,7 +25,7 @@ h1 {
 h1:hover {
   /*-webkit-transition-duration: 0.2s;*/
   transition: 0.2s;
-  border: transparent;
+  border: 0.25em solid transparent;
 }
 
 hr {
@@ -92,7 +92,3 @@ button {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
-div.d {
-  transform: rotate(90deg);
-}
