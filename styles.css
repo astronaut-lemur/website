@@ -24,7 +24,7 @@ h1 {
 
 h1:hover {
   /*-webkit-transition-duration: 0.2s;*/
-  transition-duration: 0.2s;
+  transition: 0.2s;
   border: transparent;
 }
 
