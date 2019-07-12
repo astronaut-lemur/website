@@ -18,11 +18,13 @@ h1 {
   font-style: bold;
   font-size: 70px;
   margin: 20px;
-   -webkit-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
 h1:hover {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   border: transparent;
 }
 
