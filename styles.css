@@ -32,7 +32,7 @@ hr {
   text-align: center;
 }
 
-button, dropbtn {
+button, .dropbtn {
   position: relative;
   background-color: transparent;
   border: none;
