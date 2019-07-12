@@ -16,10 +16,10 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 110,
         "density": {
           "enable": true,
-          "value_area": 1000
+          "value_area": 1100;
         }
       },
       "color": {
@@ -36,8 +36,8 @@ particlesJS('particles-js',
         },
         "image": {
           "src": "img/github.svg",
-          "width": 50,
-          "height": 50
+          "width": 25,
+          "height": 25
         }
       },
       "opacity": {
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 3,
+        "value": 1,
         "random": true,
         "anim": {
           "enable": false,
