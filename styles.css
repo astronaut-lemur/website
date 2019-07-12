@@ -50,7 +50,7 @@ button, .dropbtn {
   cursor: pointer;
 }
 
-button:hover, .dropdown:hover .dropbtn {
+button:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
   background-color: #a7b6c4;
   color: white;
 }
@@ -66,7 +66,7 @@ button:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: none;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -74,14 +74,11 @@ button:hover, .dropdown:hover .dropbtn {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
