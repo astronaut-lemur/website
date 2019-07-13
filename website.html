@@ -64,7 +64,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   document.getElementById("countdown").innerHTML = days + " days\n" + hours + " hours\n"
-  + minutes + " minutes\n" + seconds + " and seconds\n";
+  + minutes + " minutes and \n" + seconds + " seconds\n";
     
   if (distance < 0) {
     clearInterval(x);
