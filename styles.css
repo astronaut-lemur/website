@@ -49,9 +49,11 @@ p {
   font-size: 25px;
   border: 0.25em solid white;
   padding: 0.5em;
-  padding-top: 50px;
+  margin-top: 50px;
   max-width: 650px;
-  margin: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 
 .mainbtn {
