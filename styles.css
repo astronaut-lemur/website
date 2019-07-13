@@ -39,8 +39,8 @@ hr {
   text-align: center;
 }
 
-body p {
-  position: center;
+p2 {
+  padding-bottom: 3em;
 }
 
 p {
@@ -115,8 +115,3 @@ p {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
-
-posts {
-  min-height: 100%;
-}
