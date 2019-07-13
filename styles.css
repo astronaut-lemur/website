@@ -39,6 +39,11 @@ hr {
   text-align: center;
 }
 
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
 .mainbtn {
   font-family: "Lucida Console", "Monaco", "monospace";
   position: relative;
