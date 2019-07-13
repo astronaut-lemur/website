@@ -39,6 +39,9 @@ hr {
   text-align: center;
 }
 
+body p {
+  position: center;
+}
 
 p {
   text-align: center;
