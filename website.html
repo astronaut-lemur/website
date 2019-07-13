@@ -48,5 +48,30 @@
             <p2>Space school was cool</p2>
         </div>
         
+    <p id="countdown"></p>
+<script>
+var countDownDate = new Date("Jul 21, 2019 12:45:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("countdown").innerHTML = days + " days\n" + hours + " hours\n"
+  + minutes + " minutes\n" + seconds + " seconds\n";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "Exchange has passed.";
+  }
+}, 1000);
+</script>
+        
 </body>
 </html>
