@@ -37,8 +37,12 @@ hr {
 
 #blog-buttons {
   text-align: center;
+  padding-bottom: 2em
 }
 
+.centered-div {
+  height: 100%;
+}
 
 p {
   text-align: center;
