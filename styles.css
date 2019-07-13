@@ -57,6 +57,10 @@ button {
   cursor: pointer;
 }
 
+.ss:active SS-post {
+  display: block;
+}
+
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -93,14 +97,3 @@ button {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.posts a {
-  color: transparent;
-}
-
-button:active .posts a {
-  color: white;
-}
-
-button:active p1 {
-  color: transparent;
-}
