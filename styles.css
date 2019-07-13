@@ -88,6 +88,7 @@ hr {
 
 .dropdown-content .smallbtn {
   color: white;
+  position: center;
   align: center;
   background-color: transparent;
   border: none;
