@@ -39,8 +39,8 @@ hr {
   text-align: center;
 }
 
-p2 {
-  padding-bottom: 3em;
+p1 {
+  padding-bottom: 20px;
 }
 
 p {
@@ -49,6 +49,7 @@ p {
   font-size: 25px;
   border: 0.25em solid white;
   padding: 0.5em;
+  padding-top: 50px;
   max-width: 650px;
   margin: auto;
 }
