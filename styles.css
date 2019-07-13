@@ -39,6 +39,11 @@ hr {
   text-align: center;
 }
 
+.posts {
+  position: absolute;
+  text-align: center;
+}
+
 p {
   text-align: center;
   position: center;
