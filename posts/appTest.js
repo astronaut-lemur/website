@@ -139,7 +139,7 @@ function seePost(divID) {
   if (theDiv.style.display === "none") {
     for (el in elements) {
       var x = document.getElementById(el)
-      el.style.display = "none";
+      x.style.display = "none";
     }
     
     theDiv.style.display = "block";
