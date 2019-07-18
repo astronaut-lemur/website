@@ -136,11 +136,11 @@ function seePost(divID) {
   var elements = ["space_school", "ex-countdown"]
   var theDiv = document.getElementById(divID)
   
-  if (theDiv.style.display === "none") {
+  /*if (theDiv.style.display === "none") {
     for (el in elements) {
       var x = document.getElementById(el)
       x.style.display = "none";
-    }
+    } */
     
     theDiv.style.display = "block";
   }
