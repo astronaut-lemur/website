@@ -133,13 +133,13 @@ particlesJS('/../particles-js',
 );
 
 function seePost(divID) {
-  var elements = ["space_school", "ex-countdown"]
-  var theDiv = document.getElementById(divID)
+  var elements = ["space_school", "ex-countdown"];
+  var theDiv = document.getElementById(divID);
     
   if (theDiv.style.display === "none") {
     for (element in elements) {
-      var divThe = document.getElementById(element)
-      divThe.style.display = "none";
+      var temp = document.getElementById(element);
+      temp.style.display = "none";
     } 
     
     theDiv.style.display = "block";    
