@@ -20,7 +20,7 @@
 
 <!--buttons for blog categories-->
     <div id="blog-buttons">
-        <div class="tooltip"><button class="mainbtn">
+        <div class="tooltip"><button class="mainbtn" onclick="spaceSchool()">
             <i class="fas fa-rocket"></i></button>
   <span class="tooltiptext">Scottish Space School</span>
 </div>
@@ -50,8 +50,20 @@
 <br>
     <!--posts-->
     <div class="posts">
-    <p1>Test test test</p1>
+        <div id="space_school">
+            <p1>Space school was lit.</p1>
+        </div>
         
+        <script>
+function spaceSchool() {
+  var x = document.getElementById("space_school");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </div>
 </body>
 </html>
