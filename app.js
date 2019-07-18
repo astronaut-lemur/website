@@ -139,9 +139,9 @@ function spaceSchool() {
   if (SS.style.display === "none") {
     SS.style.display = "block";
     EI.style.display = "none";
-  } else {
+  } /*else {
     SS.style.display = "none";
-  }
+  } */
 }
 
 function exIntro() {
@@ -150,7 +150,7 @@ function exIntro() {
   if (EI.style.display === "none") {
     EI.style.display = "block";
     SS.style.display = "none";
-  } else {
+  } /*else {
     EI.style.display = "none";
-  }
+  } */
 }
