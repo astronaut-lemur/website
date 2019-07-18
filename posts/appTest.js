@@ -134,7 +134,7 @@ particlesJS('../particles-js',
 
 function seePost(divID) {
   var elements = ["space_school", "ex-countdown"]
-  if (divID.style.display ==="none") {
+  if (divID.style.display === "none") {
     for (el in elements) {
       el.style.display = "none";
     }
