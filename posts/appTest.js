@@ -140,7 +140,7 @@ function seePost(divID) {
     }
     
     divID.style.display = "block";
-
+  }
 }
 
 
