@@ -131,26 +131,3 @@ particlesJS('particles-js',
   }
 
 );
-
-
-function spaceSchool() {
-  var SS = document.getElementById("space_school");
-  var EI = document.getElementById("ex-countdown");
-  if (SS.style.display === "none") {
-    SS.style.display = "block";
-    EI.style.display = "none";
-  } /*else {
-    SS.style.display = "none";
-  } */
-}
-
-function exIntro() {
-  var SS = document.getElementById("space_school");
-  var EI = document.getElementById("ex-countdown");
-  if (EI.style.display === "none") {
-    EI.style.display = "block";
-    SS.style.display = "none";
-  } /*else {
-    EI.style.display = "none";
-  } */
-}
