@@ -141,7 +141,7 @@ function seePost(divID) {
     for (element in elements) {
       /*temp = document.getElementById(element);
       temp.style.display = "none";*/
-      console.log(element);
+      console.log(element.toStr());
     } 
     
     theDiv.style.display = "block";    
