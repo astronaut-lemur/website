@@ -11,7 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS('../particles-js',
+particlesJS('/../particles-js',
   
   {
     "particles": {
@@ -135,16 +135,16 @@ particlesJS('../particles-js',
 function seePost(divID) {
   var elements = ["space_school", "ex-countdown"]
   var theDiv = document.getElementById(divID)
-  
-  theDiv.style.display = "block";  
-  /*if (theDiv.style.display === "none") {
-    for (el in elements) {
-      var x = document.getElementById(el)
-      x.style.display = "none";
+    
+  if (theDiv.style.display === "none") {
+    for (element in elements) {
+      var divThe = document.getElementById(element)
+      divThe.style.display = "none";
     } 
     
+    theDiv.style.display = "block";    
 
-  } */
+  } 
 }
 
 
