@@ -134,12 +134,23 @@ particlesJS('particles-js',
 
 
 function spaceSchool() {
-  var x = document.getElementById("space_school");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var SS = document.getElementById("space_school");
+  var EI = document.getElementById("ex-countdown");
+  if (SS.style.display === "none") {
+    SS.style.display = "block";
+    EI.style.display = "none";
   } else {
-    x.style.display = "none";
+    SS.style.display = "none";
   }
 }
 
-
+function exIntro() {
+  var SS = document.getElementById("space_school");
+  var EI = document.getElementById("ex-countdown");
+  if (EI.style.display === "none") {
+    EI.style.display = "block";
+    SS.style.display = "none";
+  } else {
+    EI.style.display = "none";
+  }
+}
