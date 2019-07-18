@@ -29,7 +29,7 @@
                  <span class="tooltiptext">CyberStart Exchange</span>
 </div>
             <div class="dropdown-content">
-                <button class="smallbtn">Introduction</button>
+                <button class="smallbtn" onclick="exIntro()">Introduction</button>
                 <button class="smallbtn">Week 1</button>
                 <button class="smallbtn">Week 2</button>
                 <button class="smallbtn">Week 3</button>
@@ -53,7 +53,31 @@
         <div id="space_school" style="display: none;">
             <p1>Space school was lit.</p1>
         </div>
-
+        <div id="ex-countdown">
+    <p id="countdown"></p>
+<script>
+var countDownDate = new Date("Jul 21, 2019 14:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("countdown").innerHTML = days + " days\n" + hours + " hours\n"
+  + minutes + " minutes and \n" + seconds + " seconds\n";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "Exchange has passed.";
+  }
+}, 1000);
+</script>
+        </div>
+            
 </div>
 </body>
 </html>
