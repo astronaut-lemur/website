@@ -133,7 +133,7 @@ particlesJS('particles-js',
 );
 
 function seePost(divID) {
-  var elements = ["home", "space_school", "ex-countdown", "ex-w1", "ex-w2", "ex-w3", "ark-sm", "ark-bp", "ark-pe"];
+  var elements = ["home", "about_me", "space_school", "ex-countdown", "ex-w1", "ex-w2", "ex-w3", "ark-sm", "ark-bp", "ark-pe"];
   var theDiv = document.getElementById(divID);
   
   if (theDiv.style.display === "none") {
