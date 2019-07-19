@@ -29,7 +29,7 @@
     document.addEventListener("keydown", changeDirection);
 
     function main() {
-      if (didGameEnd()) return;
+      if (didGameEnd() && keyPressed === ENTER_KEY) return;
       setTimeout(function onTick() {
         changingDirection = false;
         clearCanvas();
@@ -109,6 +109,7 @@
       const RIGHT_KEY = 39;
       const UP_KEY = 38;
       const DOWN_KEY = 40;
+      const ENTER_KEY= 13;
 
       if (changingDirection) return;
       changingDirection = true;
@@ -133,4 +134,7 @@
         dx = 0;
         dy = 10;
       }
+      if (keyPressed === ENTER_KEY){
+          main()
+          
     }
