@@ -135,14 +135,12 @@ particlesJS('/../particles-js',
 function seePost(divID) {
   var elements = ["space_school", "ex-countdown"];
   var theDiv = document.getElementById(divID);
-  var temp = document.getElementById(divID);
   
   if (theDiv.style.display === "none") {
-    for (element in elements) {
-      /*temp = document.getElementById(element);
-      temp.style.display = "none";*/
-      console.log(element.toString());
-    } 
+    for(var i=0; i<elements.length; i++) {
+      var temp = document.getElementById(elements[i]);
+      temp.style.display = "none";
+    }
     
     theDiv.style.display = "block";    
 
