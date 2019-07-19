@@ -30,18 +30,18 @@
 </div>
             <div class="dropdown-content">
                 <button class="smallbtn" onclick="seePost('ex-countdown')">Countdown</button>
-                <button class="smallbtn">Week 1</button>
-                <button class="smallbtn">Week 2</button>
-                <button class="smallbtn">Week 3</button>
+                <button class="smallbtn" onclick="seePost('ex-w1')">Week 1</button>
+                <button class="smallbtn" onclick="seePost('ex-w2')">Week 2</button>
+                <button class="smallbtn" onclick="seePost('ex-w3')">Week 3</button>
   </div>
 </div> 
         <div class="dropdown">
             <div class="tooltip"><button class="dropbtn mainbtn"><i class="fas fa-satellite-dish"></i></button>
                 <span class="tooltiptext">Arkwright</span>
             <div class="dropdown-content">
-                <button class="smallbtn">SmartMirror</button>
-                <button class="smallbtn">Bletchley Park</button>
-                <button class="smallbtn">Pearson Engineering</button>
+                <button class="smallbtn" onclick="seePost('ark-sm')">SmartMirror</button>
+                <button class="smallbtn" onclick="seePost('ark-bp')">Bletchley Park</button>
+                <button class="smallbtn" onclick="seePost('ark-pe')">Pearson Engineering</button>
   </div>
 </div> 
 </div>
@@ -77,7 +77,37 @@ var x = setInterval(function() {
 }, 1000);
 </script>
         </div>
-            
+        
+        <div id="ex-w1">
+                 <h2>Week 1</h2>
+                 <p1>Lets hope its good. </p1>
+        </div>
+        
+        <div id="ex-w2">
+                 <h2>Week 2</h2>
+                 <p1>Better than week 1? Lets find out!</p1>
+        </div>        
+
+        <div id="ex-w3">
+                 <h2>Week 3</h2>
+                 <p1>America! Also, last week :((</p1>
+        </div> 
+ 
+        <div id="ark-sm">
+                 <h2>The SmartMirror</h2>
+                 <p1>This was really fun to build!</p1>
+        </div> 
+  
+        <div id="ark-bp">
+                 <h2>Bletchley Park</h2>
+                 <p1>I have a radio licence. Flex.</p1>
+        </div> 
+        
+        <div id="ark-pe">
+                 <h2>Pearson Engineering Experience Day</h2>
+                 <p1>We built bridges and drove quadbikes over them. It was great.</p1>
+        </div> 
+        
 </div>
 </body>
 </html>
