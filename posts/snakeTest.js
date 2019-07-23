@@ -161,4 +161,4 @@ var drawMod = ( function() {
             break;
         }
     }
-} (window, document, drawModule); })
+} )(window, document, drawModule); })
